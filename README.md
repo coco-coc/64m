@@ -35,7 +35,7 @@ rm -rf ./Xray
 
 
 
-### **Ubuntu/Dibian管理命令**
+### **Ubuntu/Dibian脚本命令**
 - **查看状态**  
   ```bash
   systemctl status xray
