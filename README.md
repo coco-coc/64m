@@ -20,7 +20,7 @@ service xray stop
 ```
 #### 执行命令：
 ```
-apk update && wget https://raw.githubusercontent.com/lgdlkq/32m/main/xr_install.sh -O xr_install.sh && ash xr_install.sh
+apk update && wget https://raw.githubusercontent.com/coco-coc/64m/refs/heads/main/xray.sh -O xray.sh && ash xray.sh
 ```
 #### 完全删除命令：
 
