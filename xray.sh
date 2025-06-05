@@ -137,7 +137,7 @@ setup_certificates() {
         chmod 700 /root/Xray
 
         # 输入证书内容（修复换行符处理）
-        yellow "请输入证书内容（输入空行结束）："
+        yellow "请输入证书内容（回车两次结束）："
         cert_txt=""
         while IFS= read -r line; do
             if [[ -z "$line" ]]; then
@@ -150,7 +150,7 @@ setup_certificates() {
         yellow "证书被保存在：/root/Xray/domain.crt"
 
         # 输入私钥内容
-        yellow "请输入对应的key内容（输入空行结束）："
+        yellow "请输入对应的key内容（回车两次结束）："
         key_txt=""
         while IFS= read -r line; do
             if [[ -z "$line" ]]; then
