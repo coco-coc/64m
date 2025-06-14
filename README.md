@@ -66,3 +66,25 @@ rm -f /etc/systemd/system/xray.service
 systemctl daemon-reload
 rm -rf /root/Xray
 ```
+
+### **hy脚本命令**
+### **启动服务
+```
+ service hysteria start
+```
+### **停止服务**
+```
+ service hysteria stop
+```
+### **重启服务**
+```
+ service hysteria restart
+```
+### **查看状态**
+```
+ service hysteria status
+```
+### **完全卸载**
+```
+ service hysteria stop ; rc-update del hysteria ; rm /etc/init.d/hysteria ; rm /usr/local/bin/hysteria ; rm -rf /etc/hysteria
+```
